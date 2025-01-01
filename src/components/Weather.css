@@ -9,6 +9,7 @@
     width: 90%; /* Adjust width for smaller screens */
     max-width: 400px; /* Limit width on larger screens */
     margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .search-bar {
@@ -28,14 +29,14 @@
     padding-left: 15px;
     color: #626262;
     font-size: 16px;
-    background: #ffffff;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
 .search-bar img {
     width: 40px;
     padding: 10px;
     border-radius: 50%;
-    background-color: #ffffff;
+    background-color: #f6f6f6;
     cursor: pointer;
 }
 
